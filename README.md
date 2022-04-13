@@ -9,7 +9,6 @@
 
 ### Предметная область – блоги и топики:
 
-
 ```python3
 class User(models.Model):
    first_name = models.CharField(max_length=255)
