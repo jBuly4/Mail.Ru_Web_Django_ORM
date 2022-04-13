@@ -250,5 +250,4 @@ def get_topic_that_like_all_users():
 def get_topic_that_dont_have_like():
     return Topic.objects.filter(likes__isnull=True)
 
-
 '''
